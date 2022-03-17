@@ -24,20 +24,20 @@ export default function HomeScreen(props){
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#24282f',
+      backgroundColor: '#27C3CD',
       alignItems: 'center',
       justifyContent: 'center',
     },
     title:{
-        color:"white",
+        color:"black",
         alignContent: 'center',
         justifyContent: 'center',
-        fontSize: 18,
+        fontSize: 20,
     },
     text:{
-        color:"white",
+        color:"black",
         margin: 10,
         padding: 10,
-        fontSize: 16,
+        fontSize: 18,
     },
 });

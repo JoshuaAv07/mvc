@@ -94,9 +94,11 @@ const styles = StyleSheet.create({
         alignContent: "flex-start",
         paddingLeft: 10,
         height: "100%",
-        backgroundColor: "#3c3e44",
+        backgroundColor: "#581845",
         borderTopRightRadius: 10,
         borderBottomRightRadius: 10,
+        borderColor: "black",
+        borderWidth: 2
     },
     character__name:{
         height: 50,
@@ -118,9 +120,13 @@ const styles = StyleSheet.create({
     },
     character__alive: {
         backgroundColor: "#54DB33",
+        borderColor: "black",
+        borderWidth: 1,
     },
     character__dead: {
-        backgroundColor: "#AC1500"
+        backgroundColor: "#AC1500",
+        borderColor: "black",
+        borderWidth: 1,
     },
     character__status_indicator: {
         flex:1,
@@ -138,7 +144,7 @@ const styles = StyleSheet.create({
         marginBottom:10,
     },
     Data__title: {
-        color: "#8a8b8c",
+        color: "#33F3FF",
         fontSize: 13,
     },
     Data__location: {
